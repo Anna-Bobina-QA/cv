@@ -1,0 +1,107 @@
+
+body {
+  font-family: "segoe print";
+  background: #FFFF99 url(2.gif); 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  box-shadow: 0px 0px 80px 40px #FFF8DC;
+  height: 400px;
+  width: 400px;
+}
+
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 45px;
+  line-height: 1.5;
+  font-family: "segoe script";
+  color: #FFF8DC;
+  text-shadow: 2px 2px 0 forestgreen;
+}
+
+.header__subtitle {
+  color: yellowgreen;
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+.links {
+  width: 750px;
+  margin-bottom: 35px;
+}
+
+.links__header {
+  font-family: "segoe script";
+  color: forestgreen;
+  text-shadow: 2px 2px 0 #FFF8DC;
+  font-size: 40px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  background-color: #FFF8DC;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 10px;
+  gap: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 19px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  font-size: 15px;
+  font-size: 1.4;
+  flex-direction: 100%;
+  align-items: center;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+  width: 700px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  color: forestgreen;
+}
+
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+  font-weight: 700;
+}
+
